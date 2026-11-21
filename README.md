@@ -1,6 +1,6 @@
 # Reqjet
 
-An API client for desktop, mobile and the browser. Requests are saved as plain `.http` files, the same format
+An API client for Windows, macOS and Linux. Requests are saved as plain `.http` files, the same format
 Visual Studio, VS Code REST Client and JetBrains IDEs use, so they live in your repository next to your code and
 work in all of those tools.
 
@@ -21,8 +21,9 @@ Get the latest version from **[Releases](../../releases/latest)**:
 | Command line | `Reqjet.Cli.<version>.nupkg`: `dotnet tool install -g Reqjet.Cli --add-source <folder with the .nupkg>` | |
 
 The desktop downloads are self-contained: nothing else needs installing. They aren't code signed yet, so Windows
-SmartScreen and macOS Gatekeeper ask before the first run (on Windows choose *More info* > *Run anyway*; on macOS
-right-click Reqjet and choose *Open*). Each release lists SHA-256 checksums in `SHA256SUMS.txt`.
+SmartScreen and macOS Gatekeeper ask before the first run (on Windows choose *More info* > *Run anyway*, or for a
+`.zip` tick *Unblock* in its *Properties* before unzipping; on macOS choose *Open Anyway* under *System Settings* >
+*Privacy & Security*). Each release lists SHA-256 checksums in `SHA256SUMS.txt`.
 
 For managed Windows machines: `Reqjet-<version>-win-x64-setup.exe /VERYSILENT /ALLUSERS` installs for everyone.
 
