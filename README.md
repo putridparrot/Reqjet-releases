@@ -9,6 +9,9 @@ work in all of those tools.
 - JetBrains-style scripts, data-driven runs, runbooks, a mock server, a quick load test, and imports from
   curl, OpenAPI, Postman and browser recordings (HAR).
 
+**[Website](https://www.reqjet.com)** · **[User guide](https://www.reqjet.com/docs)** ·
+**[Samples to try](https://www.reqjet.com/docs/getting-started/samples/)**
+
 ## Download
 
 Get the latest version from **[Releases](../../releases/latest)**:
@@ -19,6 +22,7 @@ Get the latest version from **[Releases](../../releases/latest)**:
 | macOS | `Reqjet-<version>-osx-arm64.dmg` (Apple Silicon) or `osx-x64.dmg` (Intel) | `.zip` with `Reqjet.app` |
 | Linux | `Reqjet-<version>-x86_64.AppImage` (most distributions) or `reqjet_<version>_amd64.deb` (Debian/Ubuntu) | `.tar.gz` |
 | Command line | `Reqjet.Cli.<version>.nupkg`: `dotnet tool install -g Reqjet.Cli --add-source <folder with the .nupkg>` | |
+| Samples | | `Reqjet-samples.zip`: ready-made requests against free public APIs |
 
 The desktop downloads are self-contained: nothing else needs installing. They aren't code signed yet, so Windows
 SmartScreen and macOS Gatekeeper ask before the first run (on Windows choose *More info* > *Run anyway*, or for a
