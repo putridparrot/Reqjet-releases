@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reqjet apt repository</title>
+  <meta name="description" content="Install Reqjet on Debian and Ubuntu with apt, and get updates with your other system updates.">
+  <!-- Made by build/linux/apt-repo.sh from build/linux/apt-index.html, for each release. -->
+  <style>
+    :root { --bg: #ffffff; --fg: #1a1a1a; --muted: #5c5c66; --accent: #4f46e5; --code: #f3f3f6; --line: #e3e3e8; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111114; --fg: #ececf1; --muted: #a0a0ab; --accent: #8b85ff; --code: #1e1e24; --line: #2c2c34; }
+    }
+    body { margin: 0; background: var(--bg); color: var(--fg);
+           font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 44rem; margin: 0 auto; padding: 4rem 16px; }
+    h1 { font-size: 1.75rem; margin: 0 0 .25rem; }
+    h2 { font-size: 1.15rem; margin: 2.25rem 0 .5rem; }
+    p { color: var(--muted); }
+    a { color: var(--accent); }
+    code { background: var(--code); padding: .1em .35em; border-radius: 4px; font-size: .92em; }
+    pre { background: var(--code); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px;
+          overflow-x: auto; font-size: .88rem; line-height: 1.5; }
+    pre code { background: none; padding: 0; }
+    .version { color: var(--muted); margin: 0 0 1.5rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Reqjet apt repository</h1>
+  <p class="version">Reqjet 0.1.6 for Debian and Ubuntu, on x64 (amd64) and Arm64.</p>
+  <p>Install Reqjet with apt, and it's updated with your other system updates (<code>sudo apt upgrade</code>).</p>
+
+  <h2>The easy way: install the .deb</h2>
+  <p>Download <code>reqjet_&lt;version&gt;_amd64.deb</code> (or <code>arm64</code>) from the
+    <a href="https://www.reqjet.com/download.html">download page</a> and install it. It adds this repository for you.</p>
+<pre><code>sudo apt install ./reqjet_*_amd64.deb</code></pre>
+
+  <h2>Or set the repository up yourself</h2>
+<pre><code>sudo install -d -m 755 /etc/apt/keyrings
+sudo curl -fsSLo /etc/apt/keyrings/reqjet-archive-keyring.asc https://apt.reqjet.com/reqjet-archive-keyring.asc
+sudo curl -fsSLo /etc/apt/sources.list.d/reqjet.sources https://apt.reqjet.com/reqjet.sources
+sudo apt update
+sudo apt install reqjet</code></pre>
+  <p>No <code>curl</code>? Run <code>sudo apt install curl</code> first.</p>
+
+  <h2>Stopping updates from here</h2>
+  <p>Delete <code>/etc/apt/sources.list.d/reqjet.sources</code>. Upgrading or reinstalling Reqjet won't add it back.
+    Uninstalling Reqjet removes the repository the package added.</p>
+
+  <p>More in the <a href="https://www.reqjet.com/docs/getting-started/install/">install guide</a>.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# Reqjet's apt repository (https://apt.reqjet.com).
+Types: deb
+URIs: https://apt.reqjet.com
+Suites: stable
+Components: main
+Signed-By: /etc/apt/keyrings/reqjet-archive-keyring.asc

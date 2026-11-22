@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Sun, 22 Nov 2026 13:45:20 +0000
+Description: Reqjet, the API client for .http files
+Label: Reqjet
+Origin: Reqjet
+Suite: stable
+MD5Sum:
+ 2aae30eb8caae2eefd97652c905b401f              905 main/binary-amd64/Packages
+ fc788a150c4e968c92f2aec4e6065263              583 main/binary-amd64/Packages.gz
+ 7b8b955605b4f1185d487aee4da9bf69              905 main/binary-arm64/Packages
+ c800fd1cad6b00ca71db95306580e2fb              583 main/binary-arm64/Packages.gz
+SHA1:
+ cd98fa5dcf1d0fefd8d92a018a86a0aba25eb1a2              905 main/binary-amd64/Packages
+ 1083cf31472878c848e4729cf1741ea1a12b56fe              583 main/binary-amd64/Packages.gz
+ 81017dda4187e4e5f559916415ab7f26192971a6              905 main/binary-arm64/Packages
+ 1431ef94ce77d3795acafec36e36a973257602c1              583 main/binary-arm64/Packages.gz
+SHA256:
+ 8110b6ace6e1f4af776d712bd3198ae6ca6c3a850782b58c11964c5ffedf624b              905 main/binary-amd64/Packages
+ 66ffd6427a592da0dec8014428fc1805b8c8927907743060cc5b4a95434dcbdf              583 main/binary-amd64/Packages.gz
+ 662d1c69a8c32d03c490022ebaa291edc05434e6b4027199eb2d874a95e25651              905 main/binary-arm64/Packages
+ 6b734ec40655c56a594aab4d6ba76c7614a3010d20e27f1c1857575d91be6b0e              583 main/binary-arm64/Packages.gz
+SHA512:
+ 7901f53bdf5abed5793bead86ff189ee1a28f49b425a0958c82cede5206069f41a47e04c24cde6a6c1c102c1077ff950cb58c58045ccf9431e9504b1fbff850b              905 main/binary-amd64/Packages
+ fd04640cb59c387700d5ce2c9fd4031102994ef7607eb34e61c377b87305cde98c98a1ce58ef8a2041ddc41a7ae66152ba95b840054fce9cc8ca8bc57026a8c6              583 main/binary-amd64/Packages.gz
+ fa9b2939c25d9c180bc1c9184999d9778c820ca313f94ec49ae1008aa97bd7f8d4ae8d3cd5ec503332e51ed525fdaa935fcae4bdde2aef9650d0955c9b78f72c              905 main/binary-arm64/Packages
+ 5258b868aa2fb611e9ddfe519bf1b69fef979fd3cc9d787991c2da327745fd2f647789d84ffbe97c71e0f4c9c66497df870e4e55e87756e35c0a8d281149d647              583 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEYsrt8/fPmnm2m9uv32a34Prb5z0FAmsC8fAACgkQ32a34Prb
+5z24iRAAk/0WIIw6zjXsh3iRJ3NF3dDTMnx+g2ZuAtEcdu9bFPqwglDIx/Dn5pTl
+/Sb2O7bJ+9UOp5oVGZqCQ2DuqGpG8a1ZjcUW46WTWA2Zx/X37xAlDiqhSl58VLdr
+wuGH4Z2Jdp/20AiwcH6SvB5iIYuV6H4ydQh+enJtVUkJIlXudsk2f3L5CLLnqIDZ
+p64GmBkJQhapS78U+j4Faz/LH74yyS2m4RdrTIQ/xufmsp7o3Xxb0DiHmzCTgUe7
+CpDcfpVC/Y12Da/a8CSve9poWf1htsQ/IZFhcVHYvuL3/8L+8/1gp2oh7Z6nlc3g
+rTgDNS/VV/GC0WKkENB0WlVq8M4BDTzA2UAZpjDDw/+Xm6c3UU39jRn2gNWEV44r
+/CqCvItpdhM2c+BajLcF4Q/c3nVMIwnwvMKU4BNKIXgEPCIJ7b+AASEF5MScIP0G
+rQX/R6zDC7iCrZ0xW5ubX8GbdkT587qRk/8Wl2uHMwK2Y0Y/Ey5MZoZYADygShfz
++bg8jv8peNcBGA5YMfXCMY+cKYMBiUblT/+yNBhfVZlMg2Ltk04Qf2teTjcGpPBQ
+dYXCzleY5tlVKrM3GclwRGCFQXY0liJDmcJSl3tGJjZNRWWZD+SQ/nIXlf1mHoDh
+vbUBv/CVKvTd5h/7K9Kkpu4dKqUZfEjieb2RPxN6uVxx+6fcs2Q=
+=NSAQ
+-----END PGP SIGNATURE-----

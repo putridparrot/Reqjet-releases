@@ -1,0 +1,18 @@
+Package: reqjet
+Architecture: amd64
+Version: 0.1.6
+Priority: optional
+Section: devel
+Maintainer: mtbsoftware <https://www.reqjet.com>
+Depends: libc6, libgcc-s1, libstdc++6, zlib1g, libfontconfig1, libx11-6, libice6, libsm6, libicu78 | libicu77 | libicu76 | libicu75 | libicu74 | libicu72 | libicu70 | libicu67 | libicu66 | libicu63
+Filename: pool/main/r/reqjet/reqjet_0.1.6_amd64.deb
+Size: 36816700
+MD5sum: 95b979ea838a1ad97d010e0aa2bc6607
+SHA1: d283944516d5f7247633f28516afbe5fe0a3f98a
+SHA256: 6d7da27aee3ed7a5ed3732af6987523104196f284a88c6b5162de394b56bea00
+SHA512: 388873056e02984d2947f867305300c66275d529ec2c0c430bc207f6f48b8906b803921362d690bd08ad8eced4c62e6447194c3cab99e78fc85cab36850ac635
+Homepage: https://www.reqjet.com
+Description: API client for .http files
+ Send, test and mock HTTP requests saved as plain .http files, the format Visual Studio,
+ VS Code REST Client and JetBrains IDEs use.
+
